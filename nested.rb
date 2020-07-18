@@ -105,7 +105,7 @@ def changing_alan
      alans_new_info = "GUI"
     alan_kay =p rogrammer_hash[:alan_kay]
    alan_kay_2= alan_kay[:known_for]
-    [:known_for] = "GUI"
+    alan_kay<< "GUI"
 end
 
 def adding_to_dennis
