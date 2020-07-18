@@ -81,9 +81,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash << {:yukihiro_matsumoto}
-programmer_hash[:yukihiro_matsumoto] <<{:known_for}
-programmer_hash[:yukihiro_matsumoto][known_for]="COBOL"
+programmer_hash[:yukihiro_matsumoto]
     
 end
 
