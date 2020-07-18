@@ -104,7 +104,7 @@ def changing_alan
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
     alan_kay =p rogrammer_hash[:alan_kay]
-   alan_kay_2= alan_kay
+   alan_kay_2= alan_kay[:known_for]
     [:known_for] = "GUI"
 end
 
