@@ -81,7 +81,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash.merge({:yukihiro_matsumoto => [:grace_hopper]})
+programmer_hash.merge({:yukihiro_matsumoto => {:known_for => "RUBY", :languages => ["LISP","C"]} => [:grace_hopper]})
     
 end
 
