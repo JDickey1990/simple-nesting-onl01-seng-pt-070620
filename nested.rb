@@ -103,9 +103,10 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
+     
     alan_kay =p rogrammer_hash[:alan_kay]
-   alan_kay_2= alan_kay[:known_for]
-    alan_kay<< "GUI"
+   alans_new_info = alan_kay[:known_for]
+    alans_new_info << "GUI"
 end
 
 def adding_to_dennis
