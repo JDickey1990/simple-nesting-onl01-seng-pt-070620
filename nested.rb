@@ -82,7 +82,9 @@ def adding_matz
         }
      }
 programmer_hash.merge({:yukihiro_matsumoto => [:grace_hopper]})
-programmer_hash[yukihiro_matsumoto][:known_for]= "COBOL"
+programmer_hash[yukihiro_matsumoto][:known_for] = "Ruby"
+programmer_hash[yukihiro_matsumoto][:languages] = ["LISP", "C"]
+programmer_hash [yukihiro_matsumoto]
 end
 
 def changing_alan
